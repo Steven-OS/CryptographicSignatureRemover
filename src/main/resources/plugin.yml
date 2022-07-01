@@ -1,8 +1,0 @@
-name: CryptographicSignatureRemover
-version: '${project.version}'
-main: steven-os.cryptographicsignatureremover.CryptographicSignatureRemover
-api-version: 1.19
-depend: ProtocolLib
-authors: Steven-OS
-description: CSR will strip cryptographic signatures in MC versions >=1.19
-website: https://github.com/Steven-OS
