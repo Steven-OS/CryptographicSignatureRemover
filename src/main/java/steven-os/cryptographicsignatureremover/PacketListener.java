@@ -14,7 +14,7 @@ import org.bukkit.plugin.Plugin;
  */
 public class PacketListener extends PacketAdapter {
     public PacketListener(Plugin plugin) {
-        super(plugin, PacketType.Play.Server.CHAT);
+        super(plugin, PacketType.Play.Client.CHAT);
     }
 
     @Override
