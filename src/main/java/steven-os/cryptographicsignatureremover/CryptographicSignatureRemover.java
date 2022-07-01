@@ -1,6 +1,7 @@
 package steven-os.cryptogragicsignatureremover;
 
 import com.comphenix.protocol.ProtocolManager;
+import com.comphenix.protocol.ProtocolLibrary;
 import org.bukkit.plugin.java.JavaPlugin;
 
 /**
