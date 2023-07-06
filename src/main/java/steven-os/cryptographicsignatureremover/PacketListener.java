@@ -8,8 +8,10 @@ import com.comphenix.protocol.PacketContainer;
 import org.bukkit.plugin.Plugin;
 
 /**
+ *
  * Made by Steven-OS
- * GitHub: https://github.com/Steven-OS
+ * https://github.com/Steven-OS
+ *
  */
 public class PacketListener extends PacketAdapter {
 
@@ -21,8 +23,9 @@ public class PacketListener extends PacketAdapter {
     public void onPacketReceiving(PacketEvent event) {
         // Documentation: https://wiki.vg/Protocol#Chat_Message_.28serverbound.29
         PacketContainer packet = event.getPacket();
-        if (packet.getType() == PacketType.Play.Client.CHAT) {
-            packet.getBooleans().write(0, false);
-        }
+        PacketType type = packet.getType();
+
+        if (!type.equals(PacketType.Play.Client.CHAT)) return;
+        packet.getBooleans().write(0, false);
     }
 }
