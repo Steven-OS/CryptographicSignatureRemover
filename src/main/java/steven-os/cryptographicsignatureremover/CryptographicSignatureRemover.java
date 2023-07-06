@@ -1,16 +1,13 @@
-package steven-os.cryptogragicsignatureremover;
+package steven.os.cryptographicsignatureremover;
 
-import com.comphenix.protocol.ProtocolManager;
 import com.comphenix.protocol.ProtocolLibrary;
+import com.comphenix.protocol.ProtocolManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
 /**
- *
  * Made by Steven-OS
- * https://github.com/Steven-OS
- *
+ * GitHub: https://github.com/Steven-OS
  */
-
 public final class CryptographicSignatureRemover extends JavaPlugin {
 
     @Override
