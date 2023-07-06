@@ -5,8 +5,10 @@ import com.comphenix.protocol.ProtocolManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
 /**
+ *
  * Made by Steven-OS
- * GitHub: https://github.com/Steven-OS
+ * https://github.com/Steven-OS
+ *
  */
 public final class CryptographicSignatureRemover extends JavaPlugin {
 
