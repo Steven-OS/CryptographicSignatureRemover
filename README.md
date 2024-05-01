@@ -12,4 +12,4 @@ CryptographicSignatureRemover is a versatile plugin designed for Minecraft serve
 Contributions are welcome! If you encounter any issues or would like to suggest improvements, please open an issue or submit a pull request on the [GitHub repository](https://github.com/steven-os/CryptographicSignatureRemover).
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [GPL-3.0 license](LICENSE).
